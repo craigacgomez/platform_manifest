@@ -16,7 +16,7 @@ Android Platform Manifest
 
         $ source build/envsetup.sh
         $ lunch aosp_<device>-userdebug (e.g. aosp_manta-userdebug)
-        $ make -j4 otapackage
+        $ make -j `getconf _NPROCESSORS_ONLN` otapackage
 
 - **Cleaning**
 
