@@ -50,7 +50,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/htc/flounder" name="craigacgomez/device_htc_flounder" groups="device,flounder" remote="github" revision="lollipopalooza" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
+  <project path="device/htc/flounder-kernel" name="craigacgomez/device_htc_flounder-kernel" groups="device,flounder" clone-depth="1" remote="github" revision="lollipopalooza" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
