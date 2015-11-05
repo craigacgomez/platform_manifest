@@ -4,7 +4,7 @@ Android Platform Manifest - Marshmallicious
 
         $ mkdir MARSHMALLICIOUS
         $ cd MARSHMALLICIOUS
-        $ repo init -u https://github.com/craigacgomez/platform_manifest -b marshmallicious
+        $ repo init -u https://github.com/craigacgomez/platform_manifest -b marshmallicious-phone
         $ repo sync
 
 - **Update the source:**
@@ -15,7 +15,7 @@ Android Platform Manifest - Marshmallicious
 - **Building**
 
         $ source build/envsetup.sh
-        $ lunch aosp_<device>-userdebug (e.g. aosp_flounder-userdebug)
+        $ lunch aosp_<device>-userdebug (e.g. aosp_bullhead-userdebug)
         $ make -j `getconf _NPROCESSORS_ONLN` otapackage
 
 - **Cleaning**
